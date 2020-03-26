@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/hello_main_page"
+        />
+
+    <Button
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listviewLearner"
+        android:layout_below="@+id/hello_main_page"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/handler_Learner"
+        android:layout_toRightOf="@+id/list_view"
+        android:layout_below="@+id/hello_main_page"
+        android:text="@string/handle_leaner"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/service_leaner"
+        android:layout_toRightOf="@+id/handler_Learner"
+        android:layout_below="@+id/list_view"
+        android:text="@string/serviceleaner"
+        />
+
+
+
+
+
+
+</RelativeLayout>

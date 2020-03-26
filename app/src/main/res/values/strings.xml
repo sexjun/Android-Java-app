@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="listviewLearner">跳转到listView</string>
+    <string name="userInfoDialog">用户信息</string>
+    <string name="handle_leaner">handle学习界面</string>
+    <string name="handler_totast">handler学习</string>
+    <string name="handler">handler按钮</string>
+    <string name="stop">stop</string>
+    <string name="start">start</string>
+    <string name="serviceleaner">service学习</string>
+</resources>
