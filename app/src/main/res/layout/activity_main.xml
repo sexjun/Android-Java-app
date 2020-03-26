@@ -37,8 +37,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/service_leaner"
         android:layout_toRightOf="@+id/handler_Learner"
-        android:layout_below="@+id/list_view"
+        android:layout_below="@+id/hello_main_page"
         android:text="@string/serviceleaner"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_bradcast"
+        android:layout_below="@id/handler_Learner"
+        android:text="@string/broadcast"
         />
 
 
