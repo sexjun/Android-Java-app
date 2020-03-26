@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.myapp.broadcast.SendBroadcast;
 import com.example.myapp.handler.HandlerLeaner;
 import com.example.myapp.listView.ListVIewLearner;
 import com.example.myapp.service.MyService;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: 我要去broadcast学习界面");
-                Intent toBroastCast = new Intent();
+                Intent toBroastCast = new Intent(MainActivity.this, SendBroadcast.class);
                 startActivity(toBroastCast);
             }
         });
